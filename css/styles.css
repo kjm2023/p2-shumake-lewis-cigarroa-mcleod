@@ -1,0 +1,57 @@
+/* Import Rules */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* Reset Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Body Styles */
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+/* -Wrapper Styles */
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+/* --Header Styles */
+
+header {
+    width: 100%;
+    height: 150px;
+    outline: 1px solid blue;
+}
+
+/* ----Nav Styles */
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    outline: 1px solid green;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 40%;
+}
+
+.hamburger {
+    color: #253E01;
+    font-size: 2em;
+    padding: 2%;
+}
+
+nav ul {
+    display: none;
+}
