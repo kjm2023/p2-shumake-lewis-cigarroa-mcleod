@@ -16,7 +16,13 @@ form.onsubmit = function (e) {
     document.cookie = names.value
     document.cookie = lnames.value
     document.cookie = emails.value
-  
+
+   
+    names.textContent = names.value + " "
+    localStorage.setItem('first', names.value)
+
+    lnames.textContent = lnames.value + " "
+    localStorage.setItem('second', lnames.value)
 
     
 
