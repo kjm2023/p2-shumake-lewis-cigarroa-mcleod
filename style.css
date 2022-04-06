@@ -9,14 +9,15 @@
 
 nav {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: row;
-    padding-bottom: 10px;
+    flex-wrap: nowrap;
 }
 
 nav img {
-    width: 100px;
+    width: 200px;
+    margin: 10px;
 }
 
 #footer {
@@ -33,7 +34,7 @@ body {
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #262626;
 }
 
     .topnav a {
@@ -43,7 +44,7 @@ body {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 1.5em;
     }
 
         .topnav a:hover {
@@ -52,7 +53,7 @@ body {
         }
 
         .topnav a.active {
-            background-color: grey;
+            background-color: #253E01;
             color: white;
         }
 
@@ -133,6 +134,9 @@ main.habitats {
 }
 
 @media screen and (min-width: 600px) {
+
+    
+    /*
     .topnav.responsive {
         position: relative;
     }
@@ -148,6 +152,7 @@ main.habitats {
             display: block;
             text-align: left;
         }
+        */
 
         .habitats-grid {
             flex-direction: row;
