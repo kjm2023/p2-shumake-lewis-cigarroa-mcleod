@@ -1,0 +1,264 @@
+/* Import Rules */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* Reset Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Body Styles */
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+/* -Wrapper Styles */
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* --Header Styles */
+
+header {
+    width: 100%;
+    height: 150px;
+}
+
+/* ----Nav Styles */
+
+nav {
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "logo hamburger"
+        "menu menu";
+}
+
+nav img {
+    max-width: 70%;
+    height:120px;
+    grid-area: logo;
+}
+
+.hamburger {
+    grid-area: hamburger;
+    text-align: right;
+    color: #253E01;
+    font-size: 2em;
+    padding: 2%;
+    padding-right: 10%;
+    cursor: pointer;
+}
+
+.menu {
+    grid-area: menu;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    position: relative;
+    top: -200%;
+    background-color: #FFF;
+    transition: 0.4s;
+}
+
+.menu.active {
+    top: 0;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 5%;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #253E01;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+/* Main */
+
+/* - hero content */
+
+main {
+    width: 100%;
+}
+
+.hero-content {
+    width: 100%;
+    height: auto;
+  
+    background-repeat: no-repeat;
+}
+#indexHero {
+    width:100%;
+    height:600px;
+
+    
+}
+
+
+h1 {
+    text-align: center;
+    color: #253E01;
+    padding: 5% 0;
+} 
+
+/* - home content */
+
+.home-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.home-content div {
+    margin-bottom: 5%;
+}
+
+.home-content img {
+    width: 100%;
+}
+
+.home-content h2 {
+    font-size: 1.25rem;
+    text-align: center;
+    color: #253E01;
+    padding: 2% 0;
+}
+/* Media Queries */
+
+/*contact page + footer */
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1800px;
+    text-align: center;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#contactHero {
+    width: 100%;
+    height: 500px;
+}
+
+#forms {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:100px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+@media screen and (min-width: 1024px) {
+
+    /* Desktop Nav Styles */
+
+    nav {
+        position: relative;
+        width: 100%;
+        max-height: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    nav img {
+        max-width: 25%;
+        flex-basis: 25%;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        flex-basis: 75%;
+        position: relative;
+        top: 0;
+        z-index: 999;
+    }
+
+    nav ul li {
+        list-style-type: none;
+        margin: 0;
+        padding-right: 20%;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .on-page {
+        text-decoration: underline;
+    }
+
+    .home-content {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .home-content div {
+        flex-basis: 45%;
+    }
+
+    .home-content div:nth-child(odd) {
+        margin-right: 5%;
+    }
+}
+
+/* Helpful Resources
+https://www.youtube.com/watch?v=flItyHiDm7E - JavaScript - How to Create a Responsive 
+Hamburger Menu with HTML, CSS & JavaScript
+*/
