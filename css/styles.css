@@ -155,7 +155,7 @@ main.habitats {
 
 .heroimg {
     margin: 50px;
-    background-image: url('./images/habitatHero.png');
+    background-image: url('../images/habitatHero.png');
     background-size: cover;
     background-position: center;
 }
