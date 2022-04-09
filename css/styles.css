@@ -107,7 +107,6 @@ main {
     
 }
 
-
 h1 {
     text-align: center;
     color: #253E01;
@@ -131,12 +130,35 @@ h1 {
     width: 100%;
 }
 
-.home-content h2 {
+.home-content h2,
+.modal h2 {
     font-size: 1.25rem;
     text-align: center;
     color: #253E01;
     padding: 2% 0;
 }
+
+/* - Modal */
+.modal {
+    max-width: 30%;
+    margin: 30% auto;
+    border: 0;
+    padding: 3%;
+    box-shadow: 0 0 1em rgb(0 0 0 / .3);
+    border-radius: 10px;
+  }
+  
+  .modal::backdrop {
+    background: rgb(0 0 0 / 0.4);
+  }
+
+  .modal button {
+      background-color:#253E01;
+      color: white;
+      padding: 2% 3%;
+      margin-top: 5%;
+      border: 0;
+  }
 
 /* Habitats */
 main.habitats {
