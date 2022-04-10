@@ -97,21 +97,41 @@ main {
 .hero-content {
     width: 100%;
     height: auto;
-  
     background-repeat: no-repeat;
 }
 #indexHero {
     width:100%;
-    height:600px;
-
-    
+    height:600px;    
 }
 
 h1 {
     text-align: center;
     color: #253E01;
-    padding: 5% 0;
+    padding: 2% 0;
 } 
+
+h2 {
+    text-align: center;
+    color: #253E01;
+    /* padding: 2% 0; */
+
+}
+
+#myNews {
+    padding: 3% 0;
+}
+
+.article-style {
+    font-style:italic;
+    color: #262626;
+}
+
+.article-style a {
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+    color: #749F43;
+    
+}
 
 /* - home content */
 
