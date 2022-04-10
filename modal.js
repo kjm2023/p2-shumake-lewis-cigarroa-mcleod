@@ -1,13 +1,18 @@
 const modal = document.querySelector(".modal");
+const donate = document.querySelector(".donate-button");
 const closeModal = document.querySelector(".close-button");
 
 window.addEventListener("load", () => {
   modal.showModal();
 });
 
-closeModal.addEventListener("click", () => {
+donate.addEventListener("click", () => {
   modal.close();
   window.location.href = "contact.html";
+});
+
+closeModal.addEventListener("click", () => {
+  modal.close();
 });
 
 /* Helpful Resources */
