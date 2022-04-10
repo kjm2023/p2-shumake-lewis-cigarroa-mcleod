@@ -11,3 +11,4 @@ The following outside resources were used for this project:
 - [How TO - Read More Read Less Button](https://www.w3schools.com/howto/howto_js_read_more.asp)
 - [Math.Random - JavaScript - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 - [RapidApi.com - Wildlife Live](https://rapidapi.com/jkrooncoding/api/wildlife-live1/)
+- [How TO - Collapsibles/Accordion](https://www.w3schools.com/howto/howto_js_accordion.asp)
