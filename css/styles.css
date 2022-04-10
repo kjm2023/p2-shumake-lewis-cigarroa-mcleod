@@ -218,7 +218,7 @@ main.habitats {
     font-family: 'Roboto';
 }
 
-#morecontent {
+#morecontent, #freshcontent, #oceancontent, #grasslands {
     display: none;
 }
 

@@ -35,22 +35,34 @@
 
           <div class="habitats-grid">
             <div class="habitat-card">
-              <img src="./images/forest.png" alt="Forests" />
+              <img src="./images/forest.png" alt="Forests" onclick="readMore()"/>
               <h2>Forests</h2>
+              <span id="readmoretxt">Click the image to read more.</span>
+              <span id="morecontent"> <p>Forests are essential for life on Earth. About 750 million people worldwide live in forests and more than 1.6 billion depend directly on them for their livelihoods. Forests also provide habitat for a vast array of plants and animals, many of which are still undiscovered. They protect our watersheds. They inspire wonder and provide places for recreation. They supply the oxygen we need to survive. They provide the timber for products we use every day.</p>
+              <p>Click the image again to collapse.</p></span>
             </div>
             <div class="habitat-card">
-              <img src="./images/oceans.png" alt="" />
+              <img src="./images/oceans.png" alt="" onclick="readMoreOceans()"/>
               <h2>Oceans</h2>
-            </div>
-            <div class="habitat-card">
-              <img src="./images/oceans2.png" alt="" />
+              <span id="oceantxt">Click the image to read more.</span>
+              <span id="oceancontent"> <p>Oceans contain the greatest diversity of life on Earth. From the freezing polar regions to the warm waters of the tropics and deep sea hydrothermal vents to shallow seagrass beds, marine organisms abound. Humans rely on the oceans for their important natural resources. Fishing is the principal livelihood for over 200 million people and provides the main source of protein for more than a billion.</p>
+              <p>Click the image again to collapse.</p></span>
+              </div>
+            <div class="habitat-card" >
+              <img src="./images/oceans2.png" alt="" onclick="readMoreFreshwater()"/>
               <h2>Freshwater</h2>
+              <span id="freshwatertxt">Click the image to read more.</span>
+              <span id="freshcontent"> <p>Looking at pictures of Earth from space, it’s easy to think that water is plentiful. After all, water covers 70% of our planet. However, fresh water—the stuff we drink, bathe in, irrigate our farm fields with—is incredibly rare. Only 3% of the world’s water is fresh water, and two-thirds of that is tucked away in frozen glaciers or otherwise unavailable for our use. Clean freshwater is a luxury in many parts of the world. Without a clean source of fresh water, people are exposed to diseases, such as cholera and typhoid fever. Two million people, mostly children, die each year from waterborne diseases alone.</p>
+              <p>Click the image again to collapse.</p></span>
             </div>
-            <div class="habitat-card">
+            <div class="habitat-card" onclick="readMoreGrass()">
               <img src="./images/grasslands.png" alt="" />
               <h2>Grasslands</h2>
-            </div >
-            <div class="habitat-card">
+              <span id="readgrass">Click the image to read more.</span>
+              <span id="grasslands"> <p>Grasslands have many names—prairies in North America, Asian steppes, savannahs and veldts in Africa, Australian rangelands, and pampas, llanos and cerrados in South America. But they are all places where there is too little rain for trees to grow in great numbers. Instead, these lands are covered in grasses and grass-like plants that have growing points close to the soil and can keep on growing even after being nibbled on by animals. These grasses can support high densities of grazing animals, such as zebra, antelope and bison. And these herds in turn support iconic predators, including lions and cheetahs.</p>
+              <p>Click the image again to collapse.</p></span>
+            </div>
+            <div class="habitat-card" onclick="readMore()">
               <img src="./images/wetlands.png" alt="" />
               <h2>Wetlands</h2>
             </div>
@@ -69,11 +81,9 @@
             </div>
         </div>
         <div class="readmore">
-          <button onclick="readMore()" id="readmorebtn">Read More<span id="ellipsis">...</span></button>
           <span id="morecontent">
-            <p>Oceans contain the greatest diversity of life on Earth. From the freezing polar regions to the warm waters of the tropics and deep sea hydrothermal vents to shallow seagrass beds, marine organisms abound. Humans rely on the oceans for their important natural resources. Fishing is the principal livelihood for over 200 million people and provides the main source of protein for more than a billion.</p>
-            <p>Forests are essential for life on Earth. About 750 million people worldwide live in forests and more than 1.6 billion depend directly on them for their livelihoods. Forests also provide habitat for a vast array of plants and animals, many of which are still undiscovered. They protect our watersheds. They inspire wonder and provide places for recreation. They supply the oxygen we need to survive. They provide the timber for products we use every day.</span></p>
-            <p>Looking at pictures of Earth from space, it’s easy to think that water is plentiful. After all, water covers 70% of our planet. However, fresh water—the stuff we drink, bathe in, irrigate our farm fields with—is incredibly rare. Only 3% of the world’s water is fresh water, and two-thirds of that is tucked away in frozen glaciers or otherwise unavailable for our use. Clean freshwater is a luxury in many parts of the world. Without a clean source of fresh water, people are exposed to diseases, such as cholera and typhoid fever. Two million people, mostly children, die each year from waterborne diseases alone.</p>
+            <p></p>
+            
             <p>Grasslands have many names—prairies in North America, Asian steppes, savannahs and veldts in Africa, Australian rangelands, and pampas, llanos and cerrados in South America. But they are all places where there is too little rain for trees to grow in great numbers. Instead, these lands are covered in grasses and grass-like plants that have growing points close to the soil and can keep on growing even after being nibbled on by animals. These grasses can support high densities of grazing animals, such as zebra, antelope and bison. And these herds in turn support iconic predators, including lions and cheetahs.</p>
         </div>
       </main>
