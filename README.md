@@ -8,3 +8,5 @@ The following outside resources were used for this project:
 - [How to Redirect to another Webpage](https://www.w3schools.com/howto/howto_js_redirect_webpage.asp)
 - [Create a pop-up modal the SUPER EASY way](https://www.youtube.com/watch?v=TAB_v6yBXIE) 
 - [JavaScript - How to Create a Responsive Hamburger Menu with HTML, CSS & JavaScript](https://www.youtube.com/watch?v=flItyHiDm7E)
+- [Math.Random - JavaScript - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+- [RapidApi.com - Wildlife Live](https://rapidapi.com/jkrooncoding/api/wildlife-live1/)
