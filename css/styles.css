@@ -225,6 +225,7 @@ main.habitats {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-around;
+    padding-bottom: 50px;
 }
 
 .readmore p {
@@ -240,7 +241,7 @@ main.habitats {
     font-family: 'Roboto';
 }
 
-#morecontent {
+#morecontent, #freshcontent, #oceancontent, #grasslands {
     display: none;
 }
 
@@ -370,14 +371,15 @@ input[type=submit] {
         max-height: 150px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
     
+    /* --fixing stretched image issue in nav 
     nav img {
         max-width: 25%;
         flex-basis: 25%;
-    }
+    } */
 
     .menu {
         display: flex;
